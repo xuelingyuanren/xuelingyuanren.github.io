@@ -316,13 +316,23 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">5</a></span>
+    <span class="count"><a href="/">6</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">4</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -336,13 +346,23 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">5</a></span>
+    <span class="count"><a href="/">6</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">2</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">4</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
@@ -407,7 +427,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.</div>
+                <div class="introduction center-align" data-aos="fade-up">路漫漫其修远兮，吾将上下而求索.</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -468,7 +488,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,5],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,6],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -510,7 +530,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Hexo","value":2},{"name":"Typora","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -534,7 +554,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Hexo","Github","Markdown","jsDeliver"]
             }
         ],
         yAxis: [
@@ -547,7 +567,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [3,2,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -605,7 +625,7 @@
                     <i class="fas fa-database"></i>
                 </a>
                 <div class="info-title">
-                    <a href="https://github.com/xuelingyuanren/imgBed" target="_blank">Fenix</a>
+                    <a href="https://github.com/xuelingyuanren/imgBed" target="_blank">imgBed</a>
                 </div>
                 <div class="info-desc">使用PicGo+jsDeliver+GitHub构建的图床。</div>
             </div>
@@ -618,7 +638,7 @@
                     <i class="fas fa-file-alt"></i>
                 </a>
                 <div class="info-title">
-                    <a href="https://github.com/xuelingyuanren/WebStackPage.github.io" target="_blank">typora-vue-theme</a>
+                    <a href="https://github.com/xuelingyuanren/WebStackPage.github.io" target="_blank">WebStackPage.github.io</a>
                 </div>
                 <div class="info-desc">自定义的导航网页.</div>
             </div>
@@ -713,6 +733,30 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/Hexo/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hexo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Github/">
+                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Markdown/">
+                <span class="chip center-align waves-effect waves-light chip-default">Markdown</span>
+            </a>
+            
+            
+            
+            <a href="/tags/jsDeliver/">
+                <span class="chip center-align waves-effect waves-light chip-default">jsDeliver</span>
+            </a>
+            
             
         </div>
     </div>
@@ -822,7 +866,7 @@
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2019</span>
+            <span id="year">2020</span>
             <a href="https://xuelingyuanren.github.io" target="_blank">雪岭猿人</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -832,24 +876,12 @@
             
             
             
-            
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
-            
             <br>
             
             <br>
             
         </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+        <div class="col s12 m4 l4 social-link ">
     <a href="https://github.com/xuelingyuanren" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -933,8 +965,6 @@ $(function () {
     
     <script src="/libs/others/clicklove.js" async="async"></script>
     
-    
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
